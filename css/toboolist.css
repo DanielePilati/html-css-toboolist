@@ -24,7 +24,7 @@ main {
   padding-bottom: 30%;
 }
 
-main section {
+main div {
   background-color: #ffff;
   margin: 0 auto;
   width: 60%;
@@ -79,15 +79,17 @@ p.yesscheck::before {
   border: 2px solid #2cc655;
 }
 p.nocheck::before {
+  padding-left: 0.7%;
+  padding-right: 0.7%;
   content: "X";
   color: red;
   border: 2px solid red;
 }
-main #list-section div {
+main #list-section section {
   margin-bottom: 15px;
 }
 
-main #list-section div ul {
+main #list-section section ul {
   line-height: 35px;
 }
 /*-----------type color--------------*/
