@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h3 {
+  padding-bottom: 5px;
+}
+
 /*-----header--*/
 
 header figure {
@@ -39,21 +43,20 @@ main section {
 .button {
   display: inline;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid #c4cbd0;
   padding: 5px 10px;
-  margin: 3px;
 }
 .background {
-  margin: 0;
   background-color: #14aaf5;
+  border: none;
 }
 
 /*------------list section-------------*/
 
 #list-section {
   margin-top: 2px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 ul {
@@ -62,4 +65,46 @@ ul {
 
 li * {
   display: inline;
+}
+
+.checkbox {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+main #list-section div {
+  margin-bottom: 15px;
+}
+
+main #list-section div ul {
+  line-height: 35px;
+}
+/*-----------type color--------------*/
+.type {
+  color: white;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-size: 70%;
+}
+
+.editorial {
+  background-color: #09a9ed;
+}
+
+.goals {
+  background-color: #ab5de6;
+}
+
+.recruiting {
+  background-color: #2cc6ab;
+}
+
+.mobile {
+  background-color: #ff9b00;
+}
+.website {
+  background-color: #ec4a9d;
+}
+.sales {
+  background-color: #a3d116;
 }
