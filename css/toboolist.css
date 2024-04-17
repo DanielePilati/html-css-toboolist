@@ -66,21 +66,23 @@ ul {
 li * {
   display: inline;
 }
-
-.checkbox {
-  border: 2px solid;
+p::before {
   border-radius: 100%;
   text-align: center;
   padding-left: 0.5%;
   padding-right: 0.5%;
+  margin-right: 10px;
 }
-.yesscheck {
+p.yesscheck::before {
+  content: "✓";
   color: #2cc655;
+  border: 2px solid #2cc655;
 }
-.nocheck {
+p.nocheck::before {
+  content: "X";
   color: red;
+  border: 2px solid red;
 }
-
 main #list-section div {
   margin-bottom: 15px;
 }
