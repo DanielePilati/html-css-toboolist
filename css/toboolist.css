@@ -68,8 +68,17 @@ li * {
 }
 
 .checkbox {
-  border: 1px solid black;
+  border: 2px solid;
   border-radius: 100%;
+  text-align: center;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+.yesscheck {
+  color: #2cc655;
+}
+.nocheck {
+  color: red;
 }
 
 main #list-section div {
